@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: black;
+}
+
+.container {
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 20px;
+}
+
+
+.login-form {
+    background-color: #ffcc00; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+
+}
+
+.login-form h2 {
+    margin-bottom: 20px; 
+    color: black; 
+    text-align: center;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 60%; 
+    padding: 10px;
+    margin-bottom: 10px; 
+    border-radius: 5px; 
+    border: 1px solid black;
+}
+
+.custom-button {
+    display: inline-block;
+    width: 150px; 
+    padding: 10px;
+    border-radius: 5px; 
+    background-color: black; 
+    color: white; 
+    border: none; 
+    cursor: pointer;
+    text-decoration: none; 
+    text-align: center; 
+    margin-right: 10px;
+}
+
+.custom-button:hover {
+    background-color: #333; 
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse; 
+    margin-top: 20px; 
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid black; 
+}
+
+th {
+    background-color: #ffcc00; 
+    text-align: center; 
+}
+
+
+a.custom-button {
+    display: inline-block; 
+    padding: 8px;
+    border-radius: 5px; 
+    background-color: black; 
+    color: white; 
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a.custom-button:hover {
+    background-color: #333; 
+}
+
+
+
+
+
+.head_test-wrap {
+    text-align: center;
+}
+
+
+.head_test {
+    margin: 0;
+    font-size: 40px;
+    position: relative;
+    font-weight: normal;
+    margin-bottom: 15px;
+    padding-top: 50px;
+    padding-left: 40px;
+    display: inline-block;
+    text-align: left;
+}
+
+.head_test:before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0px 0 110px 80px;
+    border-color: transparent transparent grey transparent;
+    position: absolute;
+    z-index: -1;
+    transform: rotate(30deg);
+    top: -20px;
+    left: 30px;
+}
+
+
+h2 {
+    font-weight: bold;
+    border-bottom: 3px solid black;
+    padding: 0.3em;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  h2::before {
+    content: '';
+    background-color: white;
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    left: 30px;
+    bottom: -3px;
+  }
+  h2::after {
+    content: '';
+    background-color: black;
+    width: 20px;
+    height: 3px;
+    transform: rotate(50deg);
+    position: absolute;
+    left: 25px;
+    bottom: -10px;
+  }
+
